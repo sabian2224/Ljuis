@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+
+
+  <button onclick="
+      randomNumber = Math.random();
+      player = 'Gur'
+
+      if(randomNumber <=0.33){
+        console.log('Kompjuteri zgjodhi Gur')
+        kompjuteri = 'Gur'
+      }
+      else if(randomNumber >0.33 && randomNumber<=0.5){
+        console.log('Kompjuteri zgjodhi Leter')
+        kompjuteri = 'Leter'
+      }
+      else{
+        console.log('Kompjuteri zgjodhi Gershere')
+        kompjuteri = 'Gershere'
+      }
+
+      if(player == kompjuteri){
+        console.log('Barazim');
+      }
+      else if(kompjuteri == 'Leter'){
+        console.log('Ju humbet')
+      }
+      else if(kompjuteri == 'Gershere'){
+        console.log('Ju fituat')
+      }
+
+    ">
+    Gur
+  </button>
+
+  <button>
+    Leter
+  </button>
+
+  <button>
+    Gershere
+  </button>
+
+  <script>
+    let randomNumber;
+    let kompjuteri;
+    let player;
+
+
+  </script>
+  
+</body>
+</html>
